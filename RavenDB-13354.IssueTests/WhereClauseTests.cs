@@ -61,7 +61,7 @@ namespace RavenDB_13354.IssueTests
 
         }
 
-        [Theory(DisplayName = "Should be able to get Data with a where of a SubEntityComma")]
+        [Theory(DisplayName = "Should be able to get Data from SubEntityComma")]
         [InlineData(1)]
         [InlineData(2)]
         [InlineData(3)]
@@ -96,7 +96,7 @@ namespace RavenDB_13354.IssueTests
             }
         }
 
-        [Theory(DisplayName = "Should be able to get Data with a where of a Conventional")]
+        [Theory(DisplayName = "Should be able to get Data from Conventional")]
         [InlineData(1)]
         [InlineData(2)]
         [InlineData(3)]
@@ -131,7 +131,7 @@ namespace RavenDB_13354.IssueTests
             }
         }
 
-        [Theory(DisplayName = "Should be able to get Data with a where of a Conv_entional")]
+        [Theory(DisplayName = "Should be able to get Data from Conv_entional")]
         [InlineData(1)]
         [InlineData(2)]
         [InlineData(3)]
@@ -166,7 +166,7 @@ namespace RavenDB_13354.IssueTests
             }
         }
 
-        [Theory(DisplayName = "Should be able to get Data with a where of a Conv__entional")]
+        [Theory(DisplayName = "Should be able to get Data from Conv__entional")]
         [InlineData(1)]
         [InlineData(2)]
         [InlineData(3)]
